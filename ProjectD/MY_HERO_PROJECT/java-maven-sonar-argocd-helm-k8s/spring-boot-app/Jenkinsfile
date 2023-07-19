@@ -9,7 +9,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 // Perform build steps here
-                sh 'cd ProjecrD/MY_HERO_PROJECT/java-maven-sonar-argocd-helm-k8s/spring-boot-app && mvn clean package'
+                sh 'cd ProjectD/MY_HERO_PROJECT/java-maven-sonar-argocd-helm-k8s/spring-boot-app && mvn clean package'
             }
         }
         
